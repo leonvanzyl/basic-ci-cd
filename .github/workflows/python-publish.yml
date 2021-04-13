@@ -17,6 +17,8 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
-    - name: Success Message
+    - name: Upgrade PIP
       run: |
         python -m pip install --upgrade pip
+      name: Success Message
+      run: Deployment Complete
