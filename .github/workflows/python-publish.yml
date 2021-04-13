@@ -19,5 +19,7 @@ jobs:
         python-version: '3.x'
     - name: Upgrade PIP
       run: python -m pip install --upgrade pip
+    - name: Random crap
+      run: pwd
     - name: Success Message
       run: echo Deployment Complete
